@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	strava "github.com/kpi-studio/strava-api"
+	strava "github.com/kpi-studio/go-strava-api"
 )
 
 func main() {

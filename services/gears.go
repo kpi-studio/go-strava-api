@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kpi-studio/strava-api/models"
+	"github.com/kpi-studio/go-strava-api/models"
 )
 
 // GearsService handles gear-related API calls

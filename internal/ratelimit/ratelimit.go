@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kpi-studio/strava-api/internal"
+	"github.com/kpi-studio/go-strava-api/internal"
 )
 
 // RateLimitInfo contains rate limit information from response headers

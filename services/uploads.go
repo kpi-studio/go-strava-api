@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kpi-studio/strava-api/models"
+	"github.com/kpi-studio/go-strava-api/models"
 )
 
 // UploadsService handles upload-related API calls

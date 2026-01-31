@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kpi-studio/strava-api/models"
+	"github.com/kpi-studio/go-strava-api/models"
 )
 
 // SegmentsService handles segment-related API calls

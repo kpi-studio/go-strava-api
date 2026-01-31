@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/kpi-studio/strava-api"
-	"github.com/kpi-studio/strava-api/internal/auth"
+	"github.com/kpi-studio/go-strava-api"
+	"github.com/kpi-studio/go-strava-api/internal/auth"
 )
 
 func main() {

@@ -95,8 +95,8 @@ import (
     "fmt"
     "log"
 
-    "github.com/kpi-studio/strava-api"
-    "github.com/kpi-studio/strava-api/models"
+    "github.com/kpi-studio/go-strava-api"
+    "github.com/kpi-studio/go-strava-api/models"
 )
 
 func main() {
@@ -126,8 +126,8 @@ package main
 
 import (
     "context"
-    "github.com/kpi-studio/strava-api"
-    "github.com/kpi-studio/strava-api/internal/auth"
+    "github.com/kpi-studio/go-strava-api"
+    "github.com/kpi-studio/go-strava-api/internal/auth"
 )
 
 func main() {

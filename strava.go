@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kpi-studio/strava-api/internal"
-	"github.com/kpi-studio/strava-api/internal/auth"
-	"github.com/kpi-studio/strava-api/internal/ratelimit"
-	"github.com/kpi-studio/strava-api/services"
+	"github.com/kpi-studio/go-strava-api/internal"
+	"github.com/kpi-studio/go-strava-api/internal/auth"
+	"github.com/kpi-studio/go-strava-api/internal/ratelimit"
+	"github.com/kpi-studio/go-strava-api/services"
 )
 
 const (

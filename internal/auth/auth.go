@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kpi-studio/strava-api/internal"
-	"github.com/kpi-studio/strava-api/models"
+	"github.com/kpi-studio/go-strava-api/internal"
+	"github.com/kpi-studio/go-strava-api/models"
 )
 
 // OAuth2Config contains OAuth 2.0 configuration

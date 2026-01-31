@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/kpi-studio/strava-api/models"
+	"github.com/kpi-studio/go-strava-api/models"
 	"context"
 	"encoding/json"
 	"fmt"

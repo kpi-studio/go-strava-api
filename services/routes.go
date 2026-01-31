@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/kpi-studio/strava-api/models"
+	"github.com/kpi-studio/go-strava-api/models"
 )
 
 // RoutesService handles route-related API calls

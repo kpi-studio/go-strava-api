@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kpi-studio/strava-api/internal/auth"
+	"github.com/kpi-studio/go-strava-api/internal/auth"
 )
 
 func main() {

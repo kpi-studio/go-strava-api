@@ -16,7 +16,7 @@ A comprehensive, easy-to-use Go client library for the Strava API v3.
 ## Installation
 
 ```bash
-go get github.com/kpi-studio/strava-api
+go get github.com/kpi-studio/go-strava-api
 ```
 
 ## Quick Start
@@ -29,7 +29,7 @@ import (
     "fmt"
     "log"
 
-    strava "github.com/kpi-studio/strava-api"
+    strava "github.com/kpi-studio/go-strava-api"
 )
 
 func main() {
