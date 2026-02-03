@@ -39,8 +39,8 @@ type SegmentEffort struct {
 	Name             string        `json:"name"`
 	Activity         *Activity     `json:"activity"`
 	Athlete          *Athlete      `json:"athlete"`
-	ElapsedTime      int           `json:"elapsed_time"`
-	MovingTime       int           `json:"moving_time"`
+	ElapsedTime      float64       `json:"elapsed_time"`
+	MovingTime       float64       `json:"moving_time"`
 	StartDate        time.Time     `json:"start_date"`
 	StartDateLocal   time.Time     `json:"start_date_local"`
 	Distance         float64       `json:"distance"`
@@ -59,7 +59,7 @@ type SegmentEffort struct {
 
 // AthleteSegmentStats represents an athlete's stats on a segment
 type AthleteSegmentStats struct {
-	PRElapsedTime int       `json:"pr_elapsed_time"`
+	PRElapsedTime float64   `json:"pr_elapsed_time"`
 	PRDate        time.Time `json:"pr_date"`
 	EffortCount   int       `json:"effort_count"`
 }
@@ -76,8 +76,8 @@ type Leaderboard struct {
 type LeaderboardEntry struct {
 	AthleteID      int64     `json:"athlete_id"`
 	AthleteName    string    `json:"athlete_name"`
-	ElapsedTime    int       `json:"elapsed_time"`
-	MovingTime     int       `json:"moving_time"`
+	ElapsedTime    float64   `json:"elapsed_time"`
+	MovingTime     float64   `json:"moving_time"`
 	StartDate      time.Time `json:"start_date"`
 	StartDateLocal time.Time `json:"start_date_local"`
 	Rank           int       `json:"rank"`

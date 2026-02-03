@@ -11,8 +11,8 @@ type Activity struct {
 	Athlete              *Athlete      `json:"athlete"`
 	Name                 string        `json:"name"`
 	Distance             float64       `json:"distance"`
-	MovingTime           int           `json:"moving_time"`
-	ElapsedTime          int           `json:"elapsed_time"`
+	MovingTime           float64       `json:"moving_time"`
+	ElapsedTime          float64       `json:"elapsed_time"`
 	TotalElevationGain   float64       `json:"total_elevation_gain"`
 	Type                 ActivityType  `json:"type"`
 	SportType            SportType     `json:"sport_type"`
@@ -91,8 +91,8 @@ type CreateActivityParams struct {
 // Split represents a split (metric or imperial)
 type Split struct {
 	Distance            float64 `json:"distance"`
-	ElapsedTime         int     `json:"elapsed_time"`
-	MovingTime          int     `json:"moving_time"`
+	ElapsedTime         float64 `json:"elapsed_time"`
+	MovingTime          float64 `json:"moving_time"`
 	ElevationDifference float64 `json:"elevation_difference"`
 	SplitNumber         int     `json:"split"`
 	AverageSpeed        float64 `json:"average_speed"`
@@ -106,8 +106,8 @@ type Lap struct {
 	Name               string        `json:"name"`
 	Activity           *Activity     `json:"activity"`
 	Athlete            *Athlete      `json:"athlete"`
-	ElapsedTime        int           `json:"elapsed_time"`
-	MovingTime         int           `json:"moving_time"`
+	ElapsedTime        float64       `json:"elapsed_time"`
+	MovingTime         float64       `json:"moving_time"`
 	StartDate          time.Time     `json:"start_date"`
 	StartDateLocal     time.Time     `json:"start_date_local"`
 	Distance           float64       `json:"distance"`

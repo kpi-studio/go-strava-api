@@ -42,11 +42,12 @@ type Stats struct {
 }
 
 // StatTotals represents statistical totals
+// Note: Strava API returns time fields as floats (e.g., 75607.0)
 type StatTotals struct {
 	Count            int     `json:"count"`
 	Distance         float64 `json:"distance"`
-	MovingTime       int     `json:"moving_time"`
-	ElapsedTime      int     `json:"elapsed_time"`
+	MovingTime       float64 `json:"moving_time"`
+	ElapsedTime      float64 `json:"elapsed_time"`
 	ElevationGain    float64 `json:"elevation_gain"`
 	AchievementCount int     `json:"achievement_count"`
 }
